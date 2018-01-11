@@ -19,7 +19,7 @@
                 if (that.find(selector).dirty()) {
                     return true;
                 }
-            } else if (that.val() != that.prop('defaultValue')) {
+            } else if (JSON.stringify(that.val()) != JSON.stringify(that.prop('defaultValue'))) {
                 return true;
             }
         }
