@@ -1,6 +1,6 @@
 {
   "name": "jquery-dirty",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A very dirty jQuery plugin to tell you if any input in a collection has changed its value.",
   "main": "src/jquery-dirty.js",
   "scripts": {
@@ -35,6 +35,6 @@
     "jquery-search": "^1.0.0"
   },
   "devDependencies": {
-    "laravel-mix": "^1.6.2"
+    "laravel-mix": "^1.7.2"
   }
 }
